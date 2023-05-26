@@ -1,0 +1,10 @@
+<application>
+  <component name="ExternalResourceManagerImpl">
+    <resource url="http://pmd.sf.net/ruleset/1.0.0" location="$USER_HOME$/Library/Caches/AndroidStudio3.0/extResources/8a117d51_ruleset_xml_schema.xsd" />
+    <resource url="http://pmd.sf.net/ruleset_xml_schema.xsd" location="$USER_HOME$/Library/Caches/AndroidStudio3.0/extResources/8a117d51_ruleset_xml_schema.xsd" />
+    <resource url="http://www.gwtproject.org/doctype/2.8.0/gwt-module.dtd" location="$USER_HOME$/Library/Caches/Google/AndroidStudio2021.3/extResources/9fe0e984_gwt-module.dtd" />
+    <resource url="http://www.puppycrawl.com/dtds/configuration_1_3.dtd" location="$USER_HOME$/Library/Caches/AndroidStudio2.3/extResources/1524e8b2_configuration_1_3.dtd" />
+    <resource url="http://www.w3.org/1999/02/22-rdf-syntax-ns#" location="$USER_HOME$/Library/Caches/Google/AndroidStudio2020.3/extResources/edc05920_22-rdf-syntax-ns#.xml" />
+    <ignored-resource url="http://pmd.sf.net/ruleset_xml_schema.xsd" />
+  </component>
+</application>

@@ -1,0 +1,10 @@
+<templateSet group="John.comments">
+  <template name="region" value="//region $start$&#10;//----------------------------------------------------------------------------------------------&#10;$end$&#10;//endregion" description="Region Comments" toReformat="true" toShortenFQNames="true">
+    <variable name="start" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+</templateSet>

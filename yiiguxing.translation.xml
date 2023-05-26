@@ -1,0 +1,151 @@
+<application>
+  <component name="AppStorage">
+    <option name="newTranslationDialogWidth" value="592" />
+    <histories>
+      <item value="Alphabet" />
+      <item value="Alphabeta" />
+      <item value="Stopwatch" />
+      <item value="雾霾" />
+      <item value="permission" />
+      <item value="推荐" />
+      <item value="乘车指南" />
+      <item value="租车" />
+      <item value="API HOST TFT GATEWAY" />
+      <item value="优惠活动" />
+      <item value="Nail" />
+      <item value="o Nail" />
+      <item value="save Compatible Ad Show" />
+      <item value="Ready" />
+      <item value="Tap to start next level..." />
+      <item value="Level completed, congratulations!" />
+      <item value="Want to solve it automatically?" />
+      <item value="Are you sure you want to restart?" />
+      <item value="Are you sure you want to quit?" />
+      <item value="Skip to next level..." />
+      <item value="Welcome back, what levels today?" />
+      <item value="Tap to start!" />
+      <item value="routine" />
+      <item value="roatine" />
+      <item value="tv location start" />
+      <item value="layout destination" />
+      <item value="商务合作" />
+      <item value="小天实验室" />
+      <item value="扣款设置" />
+      <item value="扣款" />
+      <item value="电子发票" />
+      <item value="防疫" />
+      <item value="园区防疫" />
+      <item value="小天钱包" />
+      <item value="电子天府通卡" />
+      <item value="福利金" />
+      <item value="零钱" />
+      <item value="我的卡券包" />
+      <item value="district Name" />
+      <item value="Java Scriptを動かすために必要" />
+      <item value="を反応させるために必要" />
+      <item value="クリックや戻るなどのアクションで画面(URL)が変化した時に通知される" />
+      <item value="アプリのデフォルトドメインは&quot;appassets.androidplatform.net&quot;" />
+      <item value="mainassetsディレクトリの登録" />
+      <item value="リクエストURLをフックしてローカルのファイルを表示" />
+      <item value="ローカルHTMLの" />
+      <item value="システム設定に戻す" />
+      <item value="Web Viewのプロキシ設定をシステム設定から上書き" />
+      <item value="プロキシ設定変更が受付された時に呼ばれる？呼ばれないような…" />
+      <item value="リスナーのための" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="107" />
+        <entry key="ENGLISH" value="104" />
+        <entry key="AFRIKAANS" value="3" />
+        <entry key="FRENCH" value="1" />
+        <entry key="JAPANESE" value="16" />
+        <entry key="ITALIAN" value="1" />
+        <entry key="HINDI" value="1" />
+      </map>
+    </option>
+  </component>
+  <component name="Cache">
+    <option name="lastTrimTime" value="1669360995614" />
+  </component>
+  <component name="Settings">
+    <option name="googleTranslateSettings">
+      <google-translate>
+        <option name="primaryLanguage" value="AFRIKAANS" />
+      </google-translate>
+    </option>
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="2224f12aff0cdd33" />
+        <option name="primaryLanguage" value="ALBANIAN" />
+      </youdao-translate>
+    </option>
+  </component>
+  <component name="Translation.Cache">
+    <option name="lastTrimTime" value="1683509425398" />
+  </component>
+  <component name="Translation.Settings">
+    <option name="primaryLanguage" value="ENGLISH" />
+    <option name="translator" value="YOUDAO" />
+    <option name="youdaoTranslateSettings">
+      <youdao-translate>
+        <option name="appId" value="2224f12aff0cdd33" />
+      </youdao-translate>
+    </option>
+  </component>
+  <component name="Translation.States">
+    <option name="newTranslationDialogWidth" value="598" />
+    <option name="newTranslationDialogX" value="659" />
+    <option name="newTranslationDialogY" value="207" />
+    <histories>
+      <item value="网约车接口" />
+      <item value="不加解密接口URL路径后缀" />
+      <item value="圈存接口" />
+      <item value="未完成" />
+      <item value="零钱账户" />
+      <item value="Delet" />
+      <item value="Nail" />
+      <item value="surplus" />
+      <item value="乘车码" />
+      <item value="Stub" />
+      <item value="Steward" />
+      <item value="azimuth" />
+      <item value="验证失败" />
+      <item value="macros" />
+      <item value="ALWAYS" />
+      <item value="button take shot" />
+      <item value="burble" />
+      <item value="bubble" />
+      <item value="bubble light" />
+      <item value="burble light" />
+      <item value="iv burble" />
+      <item value="账单记录" />
+      <item value="请贴卡···" />
+      <item value="插屏广告" />
+      <item value="interstitial" />
+      <item value="chunk" />
+      <item value="pronunce" />
+      <item value="pronunce beta" />
+      <item value="pronunciation" />
+      <item value="pronun" />
+      <item value="pro" />
+      <item value="[p" />
+      <item value="open class SingletonHolder&lt;out T: Any, in A&gt;(creator: (A) -&gt; T) {&#10;    private var creator: ((A) -&gt; T)? = creator&#10;    @Volatile private var instance: T? = null&#10;&#10;    fun getInstance(arg: A): T {&#10;        val checkInstance = instance&#10;        if (checkInstance != null) {&#10;            return checkInstance&#10;        }&#10;&#10;        return synchronized(this) {&#10;            val checkInstanceAgain = instance&#10;            if (checkInstanceAgain != null) {&#10;                checkInstanceAgain&#10;            } else {&#10;                val created = creator!!(arg)&#10;                instance = created&#10;                creator = null&#10;                created&#10;            }&#10;        }&#10;    }&#10;}" />
+      <item value="pronounce" />
+      <item value="pronounciation" />
+      <item value="label tft slogon" />
+      <item value="公告" />
+      <item value="lowbush" />
+      <item value="Vaccinium" />
+    </histories>
+    <option name="languageScores">
+      <map>
+        <entry key="CHINESE" value="30" />
+        <entry key="ENGLISH" value="28" />
+        <entry key="FRENCH" value="1" />
+        <entry key="ITALIAN" value="1" />
+      </map>
+    </option>
+  </component>
+</application>

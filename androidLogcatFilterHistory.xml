@@ -1,0 +1,20 @@
+<application>
+  <component name="AndroidLogcatFilterHistory">
+    <option name="favorites">
+      <list>
+        <option value="package:mine " />
+        <option value="package:com.chinarainbow.tft MyTAG-网络" />
+        <option value="package:com.chinarainbow.tft ADPANDA [banner广告]" />
+        <option value="package:com.chinarainbow.tft" />
+        <option value="package:com.chinarainbow.tft RxWebSocket" />
+      </list>
+    </option>
+    <option name="nonFavorites">
+      <list>
+        <option value="package:com.chinarainbow.tft --DynamicHomeFragment--" />
+        <option value="package:mine" />
+        <option value="package:mine ADPANDA [banner广告]" />
+      </list>
+    </option>
+  </component>
+</application>

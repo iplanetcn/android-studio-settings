@@ -1,0 +1,33 @@
+<application>
+  <component name="FileTypeManager" version="18">
+    <extensionMap>
+      <mapping pattern="network_security_config" type="AUTO_DETECTED" />
+      <mapping pattern="tools_placeholder_text.json" type="JSON" />
+      <mapping ext="gradle.kts" type="Kotlin" />
+      <mapping ext="main.kts" type="Kotlin" />
+      <mapping pattern="mock_pingan_ad_data" type="Native" />
+      <mapping ext="ogg" type="Native" />
+      <mapping ext="db" type="Native" />
+      <mapping pattern=".ideavimrc" type="PLAIN_TEXT" />
+      <mapping pattern="gesell_scale_items_data" type="PLAIN_TEXT" />
+      <mapping pattern="specialist_home" type="PLAIN_TEXT" />
+      <mapping pattern="Jenkinsfile" type="PLAIN_TEXT" />
+      <mapping pattern="daily_tips.json" type="PLAIN_TEXT" />
+      <mapping pattern="bangcle_sdk_safekb_licence" type="PLAIN_TEXT" />
+      <mapping pattern="phone" type="PLAIN_TEXT" />
+      <mapping pattern="test_chart_data.json" type="PLAIN_TEXT" />
+      <mapping pattern="mock_pingan_product_ad.json" type="PLAIN_TEXT" />
+      <mapping ext="lock" type="PLAIN_TEXT" />
+      <mapping ext="keystore" type="PLAIN_TEXT" />
+      <mapping ext="dat" type="PLAIN_TEXT" />
+      <mapping ext="arsc" type="PLAIN_TEXT" />
+      <removed_mapping ext="apk" approved="true" type="ARCHIVE" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
+      <removed_mapping ext="pro" approved="true" type="DeviceSpecFile" />
+      <removed_mapping ext="psd" approved="true" type="Image" />
+      <mapping ext="plantuml" type="PlantUML file" />
+      <mapping pattern=".gitignore_global" type="Git file" />
+      <mapping pattern="ignore" type="Git exclude file" />
+    </extensionMap>
+  </component>
+</application>

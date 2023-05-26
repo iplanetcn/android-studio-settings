@@ -1,0 +1,33 @@
+<keymap version="1" name="macOS-John" parent="Mac OS X 10.5+">
+  <action id="ActivateBookmarksToolWindow">
+    <keyboard-shortcut first-keystroke="meta 7" />
+  </action>
+  <action id="ActivateStructureToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="CIDR.Lang.IntroduceDefine" />
+  <action id="CommentByBlockComment">
+    <keyboard-shortcut first-keystroke="meta alt slash" />
+    <keyboard-shortcut first-keystroke="meta alt divide" />
+    <keyboard-shortcut first-keystroke="shift ctrl slash" />
+    <keyboard-shortcut first-keystroke="shift ctrl divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+    <keyboard-shortcut first-keystroke="shift meta divide" />
+  </action>
+  <action id="Diff.NextChange" />
+  <action id="Diff.PrevChange" />
+  <action id="DuplicatesForm.SendToRight" />
+  <action id="FileChooser.GotoProject" />
+  <action id="NextEditorTab" />
+  <action id="NextTab">
+    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
+  </action>
+  <action id="PreviousEditorTab" />
+  <action id="PreviousTab">
+    <keyboard-shortcut first-keystroke="shift meta open_bracket" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
+  <action id="ShowContent" />
+</keymap>

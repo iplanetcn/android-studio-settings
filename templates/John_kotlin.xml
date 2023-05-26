@@ -1,0 +1,29 @@
+<templateSet group="John.kotlin">
+  <template name="ksc" value="/**&#10; * $CLASS_NAME$&#10; * &#10; * @author $USER$&#10; */" description="kotlin source comments" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="mvvm adapter" value="class ToneAdapter(&#10;    private var data: List&lt;Tone&gt;,&#10;    private var cellClickListener: CellClickListener&lt;Tone&gt;&#10;) : RecyclerView.Adapter&lt;ToneViewHolder&gt;() {&#10;&#10;&#10;    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ToneViewHolder {&#10;        val binding = &lt;TBD&gt;.&lt;TBD&gt;&#10;        return &lt;TBD&gt;&#10;    }&#10;&#10;    override fun getItemCount(): Int {&#10;        return &lt;TBD&gt;.&lt;TBD&gt;&#10;    }&#10;&#10;    override fun onBindViewHolder(holder: ToneViewHolder, position: Int) {&#10;        &lt;TBD&gt;.&lt;TBD&gt;&#10;    }&#10;&#10;}&#10;&#10;class ToneViewHolder(private var binding: ItemLayoutBinding) :&#10;    RecyclerView.ViewHolder(&lt;TBD&gt;.&lt;TBD&gt;) {&#10;&#10;    fun bind(tone: Tone, cellClickListener: CellClickListener&lt;Tone&gt;) {&#10;        &lt;TBD&gt;.&lt;TBD&gt;.&lt;TBD&gt; = &lt;TBD&gt;.&lt;TBD&gt;&#10;        &lt;TBD&gt;.&lt;TBD&gt;.&lt;TBD&gt; = &lt;TBD&gt;.&lt;TBD&gt;&#10;        &lt;TBD&gt;.&lt;TBD&gt;.&lt;TBD&gt;&#10;    }&#10;}&#10;&#10;interface CellClickListener&lt;T&gt; {&#10;    fun onCellClick(data: T)&#10;}" description="mvvm adapter" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+  <template name="bf" value="private var _binding: $Binding$? = null&#10;private val binding get() = _binding!!&#10;&#10;override fun onCreateView(&#10;    inflater: LayoutInflater,&#10;    container: ViewGroup?,&#10;    savedInstanceState: Bundle?&#10;): View {&#10;    _binding = $Binding$.inflate(inflater, container, false)&#10;    return binding.root&#10;}&#10;&#10;override fun onDestroyView() {&#10;    _binding = null&#10;    super.onDestroyView()&#10;}" description="create binding for fragment" toReformat="false" toShortenFQNames="true">
+    <variable name="Binding" expression="complete()" defaultValue="ViewBinding" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+    </context>
+  </template>
+  <template name="ba" value="private lateinit var binding: $Binding$&#10;&#10;override fun onCreate(savedInstanceState: Bundle?){&#10;    super.onCreate(savedInstanceState)&#10;    binding = $Binding$.inflate(layoutInflater)&#10;    setContentView(binding.root)&#10;}" description="create binding for activity" toReformat="false" toShortenFQNames="true">
+    <variable name="Binding" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN_CLASS" value="true" />
+      <option name="KOTLIN_STATEMENT" value="true" />
+      <option name="KOTLIN_TOPLEVEL" value="true" />
+    </context>
+  </template>
+</templateSet>
