@@ -1,0 +1,111 @@
+<templateSet group="John.java">
+  <template name="jsc" value="/**&#10; * $COMPLETE$&#10; * &#10; * @author $USER$&#10; */" description="java source comment" toReformat="false" toShortenFQNames="true">
+    <variable name="COMPLETE" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gp" value="/**parse json to object*/&#10;Gson gson = new Gson();&#10;&#10;Type listType = new TypeToken&lt;List&lt;$CLASS_NAME$&gt;&gt;() {}.getType();&#10;List&lt;$CLASS_NAME$&gt; = gson.fromJson(jsonStr, listType);&#10;&#10;$CLASS_NAME$ = gson.fromJson(jsonStr, $CLASS_NAME$.class);" description="gson parse" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ta" value="public static final String TAG = $CLASS_NAME$.class.getSimpleName();" description="TAG" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="gsi" value="/**&#10; * 获取启动$CLASS_NAME$的Intent&#10; *&#10; * @param context                 上下文&#10; * @param clearPreviousActivities 是否清除任务栈&#10; * @return Intent&#10; */&#10;public static Intent getStartIntent(@androidx.annotation.NonNull Context context,&#10;                                    boolean clearPreviousActivities) {&#10;    Intent intent = new Intent(context, $CLASS_NAME$.class);&#10;    if (clearPreviousActivities) {&#10;        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);&#10;    }&#10;    return intent;&#10;}" description="Intent getStartIntent()" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="dcte" value="// 退出时间&#10;private long mExitTime;&#10;// 返回按钮两次之间的间隙时间，单位：毫秒（点击返回按钮两次间隔若小于2秒则退出应用）&#10;private static final long CLICK_DURATION = 2000;&#10;&#10;/**&#10; * 连续两次返回按钮推出程序&#10; */&#10;@Override&#10;public boolean onKeyDown(int keyCode, KeyEvent event) {&#10;    if (keyCode == KeyEvent.KEYCODE_BACK) {&#10;&#10;        if ((System.currentTimeMillis() - mExitTime) &gt; CLICK_DURATION) {&#10;            Toast.makeText(this, getResources().getText(R.string.exit_click_again), Toast.LENGTH_SHORT).show();&#10;            mExitTime = System.currentTimeMillis();&#10;        } else {&#10;            finish();&#10;        }&#10;        return true;&#10;    }&#10;    // 拦截MENU按钮点击事件，让他无任何操作&#10;    return keyCode == KeyEvent.KEYCODE_MENU || super.onKeyDown(keyCode, event);&#10;}&#10;&#10;" description="double click to exit" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="pvm" value="public void $method$($param$ $value$){&#10;    $end$&#10;}" description="public void method()" toReformat="false" toShortenFQNames="true">
+    <variable name="method" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="param" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="value" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="end" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="vp" value="interface View extends MvpView {&#10;    $content$&#10;}&#10;&#10;interface Presenter extends MvpPresenter&lt;View&gt; {&#10;    $complete$&#10;}" description="view interface and presenter  abstract class" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="complete" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="cia" value="private static final int SUCCESS = 0;&#10;private static final int FAILURE = -1;&#10;@IntDef({SUCCESS, FAILURE})&#10;@Retention(RetentionPolicy.SOURCE)&#10;@interface $content$ {&#10;}&#10;" description="Custom Integer Annotation" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="tododummy" value="// TODO by John: $date$ $todo$remove those dummy data before release" description="TODO by John: $date remove those dummy data before release" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="todoimpl" value="// TODO by John: $date$ $todo$ implement this function" description="TODO by John: $date implement this function" toReformat="false" toShortenFQNames="true">
+    <variable name="date" expression="date(&quot;yyyy-MM-dd&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="todo" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="COMPLETION" value="true" />
+      <option name="JAVA_COMMENT" value="true" />
+      <option name="JAVA_DECLARATION" value="true" />
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="owfc" value="@Override&#10;public void onWindowFocusChanged(boolean hasFocus) {&#10;    super.onWindowFocusChanged(hasFocus);&#10;    getWindow().getDecorView().setSystemUiVisibility(&#10;            View.SYSTEM_UI_FLAG_LAYOUT_STABLE |&#10;            View.SYSTEM_UI_FLAG_LAYOUT_HIDE_NAVIGATION |&#10;            View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN |&#10;            View.SYSTEM_UI_FLAG_HIDE_NAVIGATION |&#10;            View.SYSTEM_UI_FLAG_FULLSCREEN |&#10;            View.SYSTEM_UI_FLAG_IMMERSIVE_STICKY&#10;    );&#10;}" description="onWindowFocusChanged(boolean hasFocus)" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="td" value="timber.log.Timber.d($content$);" description="Timber.d(Message);" toReformat="true" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="te" value="timber.log.Timber.e($content$);" description="Timber.e(Message)" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ebss" value="@Override&#10;public void onStart() {&#10;    super.onStart();&#10;    EventBus.getDefault().register(this);&#10;}&#10; &#10;@Override&#10;public void onStop() {&#10;    EventBus.getDefault().unregister(this);&#10;    super.onStop();&#10;}" description="EventBus onStart() &amp; onStop()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="ebsm" value="@org.greenrobot.eventbus.Subscribe(threadMode = ThreadMode.MAIN)&#10;public void onEvent() {&#10;    $content$&#10;}" description="EventBus onEvent Subscribe at ThreadMode.Main" toReformat="false" toShortenFQNames="true">
+    <variable name="content" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+  <template name="si" value="public static void start(android.content.Context context) {&#10;    context.startActivity(getStartIntent(context, false));&#10;}&#10;&#10;public static Intent getStartIntent(@android.support.annotation.NonNull Context context,&#10;                                    boolean clearPreviousActivities) {&#10;    Intent intent = new Intent(context, $CLASS_NAME$.class);&#10;    intent.putExtra($CURSOR$);&#10;    if (clearPreviousActivities) {&#10;        intent.setFlags(Intent.FLAG_ACTIVITY_NEW_TASK | Intent.FLAG_ACTIVITY_CLEAR_TASK);&#10;    }&#10;    return intent;&#10;}" description="Start() Intent getStartIntent()" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS_NAME" expression="className()" defaultValue="" alwaysStopAt="true" />
+    <variable name="CURSOR" expression="complete()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_CODE" value="true" />
+    </context>
+  </template>
+</templateSet>

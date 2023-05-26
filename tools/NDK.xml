@@ -1,0 +1,23 @@
+<toolSet name="NDK">
+  <tool name="javah" description="javah" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$JDKPath$/bin/javah" />
+      <option name="PARAMETERS" value="-classpath $Classpath$ -v -jni $FileClass$" />
+      <option name="WORKING_DIRECTORY" value="$SourcepathEntry$/../jni" />
+    </exec>
+  </tool>
+  <tool name="ndk-build" description="ndk-build" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Library/Android/sdk/ndk-bundle/ndk-build" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/app/src/main" />
+    </exec>
+  </tool>
+  <tool name="ndk-build clean" description="ndk-build clean" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="true" showConsoleOnStdErr="true" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Library/Android/sdk/ndk-bundle/ndk-build" />
+      <option name="PARAMETERS" value="clean" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$/app/src/main" />
+    </exec>
+  </tool>
+</toolSet>

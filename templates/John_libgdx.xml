@@ -1,0 +1,13 @@
+<templateSet group="John.libgdx">
+  <template name="gdxgl" value="class GameLauncher : AndroidApplication() {&#10;    override fun onCreate(savedInstanceState: Bundle?) {&#10;        super.onCreate(savedInstanceState)&#10;        val config = AndroidApplicationConfiguration()&#10;        config.useImmersiveMode = false&#10;        initialize($Game$(), config)&#10;    }&#10;}" description="GameLauncher" toReformat="false" toShortenFQNames="true">
+    <variable name="Game" expression="complete()" defaultValue="Game" alwaysStopAt="true" />
+    <context>
+      <option name="KOTLIN" value="true" />
+    </context>
+  </template>
+  <template name="gdxglx" value=" &lt;activity&#10;    android:name=&quot;.GameLauncher&quot;&#10;    android:configChanges=&quot;keyboard|keyboardHidden|navigation|orientation|screenSize|screenLayout&quot;&#10;    android:exported=&quot;true&quot;&#10;    android:label=&quot;@string/app_name&quot;&#10;    android:screenOrientation=&quot;portrait&quot;&#10;    tools:ignore=&quot;LockedOrientationActivity&quot;&gt;&#10;    &lt;intent-filter&gt;&#10;        &lt;action android:name=&quot;android.intent.action.MAIN&quot; /&gt;&#10;        &lt;category android:name=&quot;android.intent.category.LAUNCHER&quot; /&gt;&#10;    &lt;/intent-filter&gt;&#10;&lt;/activity&gt;" description="GameLauncher" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="XML" value="true" />
+    </context>
+  </template>
+</templateSet>
