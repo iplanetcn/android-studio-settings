@@ -11,6 +11,7 @@
     </option>
     <option name="nonFavorites">
       <list>
+        <option value="package:com.phenix.fractal" />
         <option value="package:com.chinarainbow.tft --DynamicHomeFragment--" />
         <option value="package:mine" />
         <option value="package:mine ADPANDA [banner广告]" />
