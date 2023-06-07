@@ -5,12 +5,12 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
-            <value value="78f8073c" />
+            <value value="7e9c385e" />
           </Key>
         </key>
-        <name value="Xiaomi M2012K11AC" />
-        <target value="Android 11.0" />
-        <api value="androidversion:30:null:null:true" />
+        <name value="Xiaomi MIX 2" />
+        <target value="Android 9.0" />
+        <api value="androidversion:28:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
