@@ -5,12 +5,34 @@
         <key>
           <Key>
             <type value="SERIAL_NUMBER" />
+            <value value="NAB0220C10006212" />
+          </Key>
+        </key>
+        <name value="HUAWEI ANA-AN00" />
+        <target value="Android 12.0" />
+        <api value="androidversion:31:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
             <value value="7e9c385e" />
           </Key>
         </key>
         <name value="Xiaomi MIX 2" />
         <target value="Android 9.0" />
         <api value="androidversion:28:null:null:true" />
+      </PhysicalDevice>
+      <PhysicalDevice>
+        <key>
+          <Key>
+            <type value="SERIAL_NUMBER" />
+            <value value="66J5T18A13001705" />
+          </Key>
+        </key>
+        <name value="HUAWEI HMA-AL00" />
+        <target value="Android 10.0" />
+        <api value="androidversion:29:null:null:true" />
       </PhysicalDevice>
     </physicalDevices>
   </component>
