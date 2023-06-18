@@ -83,7 +83,7 @@
     </option>
   </component>
   <component name="Translation.Cache">
-    <option name="lastTrimTime" value="1683509425398" />
+    <option name="lastTrimTime" value="1686102564893" />
   </component>
   <component name="Translation.Settings">
     <option name="primaryLanguage" value="ENGLISH" />
@@ -99,13 +99,13 @@
     <option name="newTranslationDialogX" value="659" />
     <option name="newTranslationDialogY" value="207" />
     <histories>
+      <item value="Nail" />
       <item value="网约车接口" />
       <item value="不加解密接口URL路径后缀" />
       <item value="圈存接口" />
       <item value="未完成" />
       <item value="零钱账户" />
       <item value="Delet" />
-      <item value="Nail" />
       <item value="surplus" />
       <item value="乘车码" />
       <item value="Stub" />
@@ -141,8 +141,8 @@
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="30" />
-        <entry key="ENGLISH" value="28" />
+        <entry key="CHINESE" value="31" />
+        <entry key="ENGLISH" value="29" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
