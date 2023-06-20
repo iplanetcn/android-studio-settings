@@ -1,0 +1,8 @@
+<templateSet group="John.C/C++">
+  <template name="logmacro" value="#include &lt;android/log.h&gt;&#10;&#10;#define TAG &quot;projectname&quot; // 定义标识&#10;#define LOGD(...) __android_log_print(ANDROID_LOG_DEBUG,TAG,__VA_ARGS__)   // 定义LOGD类型 &#10;#define LOGI(...) __android_log_print(ANDROID_LOG_INFO,TAG,__VA_ARGS__)    // 定义LOGI类型 &#10;#define LOGW(...) __android_log_print(ANDROID_LOG_WARN,TAG,__VA_ARGS__)    // 定义LOGW类型 &#10;#define LOGE(...) __android_log_print(ANDROID_LOG_ERROR,TAG,__VA_ARGS__)   // 定义LOGE类型 &#10;#define LOGF(...) __android_log_print(ANDROID_LOG_FATAL,TAG,__VA_ARGS__)   // 定义LOGF类型" description="native android log macro" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="c" value="true" />
+      <option name="cpp" value="true" />
+    </context>
+  </template>
+</templateSet>
