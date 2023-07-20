@@ -2,14 +2,14 @@
   <component name="AndroidLogcatFilterHistory">
     <option name="favorites">
       <list>
+        <option value="package:com.chinarainbow.tft MyTAG-网络" />
         <option value="package:com.chinarainbow.tft" />
         <option value="package:com.chinarainbow.tft YQAD" />
         <option value="package:com.chinarainbow.tft ADPANDA [banner广告]" />
-        <option value="package:com.chinarainbow.tft MyTAG-网络" />
         <option value="package:com.chinarainbow.tft RxWebSocket" />
       </list>
     </option>
-    <option name="mostRecentlyUsed" value="package:com.chinarainbow.tft" />
+    <option name="mostRecentlyUsed" value="package:com.chinarainbow.tft MyTAG-网络" />
     <option name="nonFavorites">
       <list>
         <option value="level:error " />
