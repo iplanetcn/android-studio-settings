@@ -100,6 +100,13 @@
     <option name="newTranslationDialogY" value="207" />
     <option name="pinTranslationDialog" value="true" />
     <histories>
+      <item value="文体" />
+      <item value="GENRES" />
+      <item value="出行" />
+      <item value="CULTURAL GENRES" />
+      <item value="文旅" />
+      <item value="02文体" />
+      <item value="电商" />
       <item value="commodity" />
       <item value="精选" />
       <item value="selection" />
@@ -143,15 +150,11 @@
       <item value="open class SingletonHolder&lt;out T: Any, in A&gt;(creator: (A) -&gt; T) {&#10;    private var creator: ((A) -&gt; T)? = creator&#10;    @Volatile private var instance: T? = null&#10;&#10;    fun getInstance(arg: A): T {&#10;        val checkInstance = instance&#10;        if (checkInstance != null) {&#10;            return checkInstance&#10;        }&#10;&#10;        return synchronized(this) {&#10;            val checkInstanceAgain = instance&#10;            if (checkInstanceAgain != null) {&#10;                checkInstanceAgain&#10;            } else {&#10;                val created = creator!!(arg)&#10;                instance = created&#10;                creator = null&#10;                created&#10;            }&#10;        }&#10;    }&#10;}" />
       <item value="pronounce" />
       <item value="pronounciation" />
-      <item value="label tft slogon" />
-      <item value="公告" />
-      <item value="lowbush" />
-      <item value="Vaccinium" />
     </histories>
     <option name="languageScores">
       <map>
-        <entry key="CHINESE" value="40" />
-        <entry key="ENGLISH" value="38" />
+        <entry key="CHINESE" value="50" />
+        <entry key="ENGLISH" value="48" />
         <entry key="FRENCH" value="1" />
         <entry key="ITALIAN" value="1" />
       </map>
