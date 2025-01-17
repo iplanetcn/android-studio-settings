@@ -1,0 +1,33 @@
+<application>
+  <component name="Trusted.Paths">
+    <option name="TRUSTED_PROJECT_PATHS">
+      <map>
+        <entry key="$USER_HOME$/AndroidStudioProjects/DecodeQrcodeAndroid" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/GreekAlphabetAndroid" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/NewbieGuide" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/PeriodicTable" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/TFTong" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/architecture-samples" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/bluetoothchat" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/demo" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/gamebox" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/jetpack-compose-app-fruits" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/playground" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/sfml3-android" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/snippets" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/stopwatch-android" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/tft-app" value="true" />
+        <entry key="$USER_HOME$/AndroidStudioProjects/tft-app-compose" value="true" />
+        <entry key="$USER_HOME$/DevEcoStudioProjects/tft" value="true" />
+      </map>
+    </option>
+  </component>
+  <component name="Trusted.Paths.Settings">
+    <option name="TRUSTED_PATHS">
+      <list>
+        <option value="$USER_HOME$/AndroidStudioProjects" />
+        <option value="$USER_HOME$/DevEcoStudioProjects" />
+      </list>
+    </option>
+  </component>
+</application>

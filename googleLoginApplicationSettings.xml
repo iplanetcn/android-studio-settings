@@ -1,0 +1,19 @@
+<application>
+  <component name="GoogleLoginApplicationSettings">
+    <option name="activeUser" value="iplanetcn@gmail.com" />
+    <option name="userEmail2FeaturesStore">
+      <map>
+        <entry key="iplanetcn@gmail.com">
+          <value>
+            <set>
+              <option value="Firebase" />
+              <option value="Gemini" />
+              <option value="Android Vitals" />
+              <option value="User Info" />
+            </set>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</application>

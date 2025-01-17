@@ -1,0 +1,13 @@
+<application>
+  <component name="StudioBotSettings">
+    <option name="acceptedTermsVersion" value="3" />
+    <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="enableCodeCompletion" value="false" />
+    <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1737096741256">How to choose minSdkVersion?</historyEntry>
+      </list>
+    </option>
+  </component>
+</application>

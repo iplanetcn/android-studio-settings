@@ -1,33 +1,26 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="favorites">
-      <list>
-        <option value="package:com.chinarainbow.tft MyTAG-网络" />
-        <option value="package:com.chinarainbow.tft" />
-        <option value="package:com.chinarainbow.tft YQAD" />
-        <option value="package:com.chinarainbow.tft ADPANDA [banner广告]" />
-        <option value="package:com.chinarainbow.tft RxWebSocket" />
-      </list>
-    </option>
-    <option name="mostRecentlyUsed" value="package:com.chinarainbow.tft MyTAG-网络" />
+    <option name="mostRecentlyUsed" value="package:mine yqad" />
     <option name="nonFavorites">
       <list>
-        <option value="level:error " />
-        <option value="package:com.chinarainbow.tft " />
-        <option value="package:com.chinarainbow.tft level:error " />
-        <option value="package:com.chinarainbow.tft yqad" />
-        <option value="package:com.chinarainbow.tft yqAD" />
-        <option value="package:com.chinarainbow.tft YDAD" />
-        <option value="package:com.chinarainbow.tft adone" />
-        <option value="package:com.chinarainbow.tft ad" />
-        <option value="package:mine" />
-        <option value="package:com.phenix.sfml_android" />
-        <option value="package:org.libsdl.app" />
+        <option value="package:mine yqad" />
         <option value="package:mine " />
-        <option value="package:com.chinarainbow.tft ADPANDA" />
-        <option value="package:com.phenix.fractal" />
-        <option value="package:com.chinarainbow.tft --DynamicHomeFragment--" />
-        <option value="package:mine ADPANDA [banner广告]" />
+        <option value="package:mine level:error " />
+        <option value="package:mine" />
+        <option value="package:mine 网络" />
+        <option value="level:error " />
+        <option value="package:mine level:error" />
+        <option value="package:mine YdSDK" />
+        <option value="package:mine y" />
+        <option value="package:mine oaid" />
+        <option value="rushhour" />
+        <option value="MainFunc-(width, height)-&gt;" />
+        <option value="package:mine is:error " />
+        <option value="package:mine source" />
+        <option value="package:mine DeviceId" />
+        <option value="package:mine [DouyinSdkManager]" />
+        <option value="package:mine  tag: TFT-[DouyinSdkManager]  did:" />
+        <option value="package:mine  did:" />
       </list>
     </option>
   </component>

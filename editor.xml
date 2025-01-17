@@ -1,22 +1,33 @@
 <application>
   <component name="CodeInsightSettings">
-    <option name="completionCaseSensitive" value="2" />
-    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
-    <option name="COMPLETION_CASE_SENSITIVE" value="2" />
-    <option name="OPTIMIZE_IMPORTS_ON_THE_FLY" value="true" />
     <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+    <EXCLUDED_PACKAGE NAME="java.lang.reflect.Modifier" />
   </component>
   <component name="CodeVisionSettings">
-    <option name="disabledCodeVisionProviderIds">
-      <set>
-        <option value="references" />
-      </set>
+    <option name="defaultPosition" value="Right" />
+  </component>
+  <component name="DaemonCodeAnalyzerSettings">
+    <option name="AUTOREPARSE_DELAY" value="0" />
+  </component>
+  <component name="DeclarativeInlayHintsSettings">
+    <option name="providerIdToEnabled">
+      <map>
+        <entry key="compose.state.read" value="false" />
+        <entry key="devkit.threading" value="false" />
+        <entry key="groovy.implicit.null.argument" value="true" />
+        <entry key="groovy.local.variable.implicit.types" value="true" />
+        <entry key="java.implicit.types" value="false" />
+        <entry key="java.method.chains" value="true" />
+        <entry key="kotlin.lambdas.hints" value="false" />
+        <entry key="kotlin.method.chains" value="false" />
+        <entry key="kotlin.references.types.hints" value="false" />
+        <entry key="kotlin.values.hints" value="true" />
+        <entry key="oc.type.hints" value="true" />
+      </map>
     </option>
   </component>
-  <component name="EditorSettings">
-    <option name="USE_SOFT_WRAPS" value="CONSOLE" />
-  </component>
-  <component name="InlayHintsSettings">
-    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+  <component name="TodoConfiguration">
+    <pattern pattern="\btodo\b.*" />
+    <pattern pattern="\bfixme\b.*" />
   </component>
 </application>
