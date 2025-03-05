@@ -30,7 +30,7 @@
     <jdk version="2">
       <name value="jbr-21" />
       <type value="JavaSDK" />
-      <version value="JetBrains Runtime 21.0.3" />
+      <version value="JetBrains Runtime 21.0.5 - aarch64" />
       <homePath value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
@@ -303,7 +303,7 @@
     <jdk version="2">
       <name value="jbr-17" />
       <type value="JavaSDK" />
-      <version value="JetBrains Runtime 17.0.11" />
+      <version value="JetBrains Runtime 21.0.5 - aarch64" />
       <homePath value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
@@ -349,8 +349,6 @@
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.le" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.opt" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.vm.ci" type="simple" />
-            <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.vm.compiler" type="simple" />
-            <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.internal.vm.compiler.management" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.jartool" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.javadoc" type="simple" />
             <root url="jrt://$APPLICATION_HOME_DIR$/jbr/Contents/Home!/jdk.jcmd" type="simple" />
@@ -387,7 +385,7 @@
     <jdk version="2">
       <name value="21" />
       <type value="JavaSDK" />
-      <version value="java version &quot;21.0.3&quot;" />
+      <version value="JetBrains Runtime 21.0.5 - aarch64" />
       <homePath value="$APPLICATION_HOME_DIR$/jbr/Contents/Home" />
       <roots>
         <annotationsPath>
@@ -459,9 +457,7 @@
           </root>
         </classPath>
         <javadocPath>
-          <root type="composite">
-            <root url="https://docs.oracle.com/en/java/javase/21/docs/api/" type="simple" />
-          </root>
+          <root type="composite" />
         </javadocPath>
         <sourcePath>
           <root type="composite" />
