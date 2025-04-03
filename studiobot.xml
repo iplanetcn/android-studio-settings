@@ -6,6 +6,18 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1743670104027">16:47:28.669  E  Failed to find sync for id=0
+16:47:28.673  A  Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 25311 (ystudios.vulkan), pid 25240 (ystudios.vulkan)
+16:47:28.910  A  Cmdline: com.cherrystudios.vulkan
+16:47:28.910  A  pid: 25240, tid: 25311, name: ystudios.vulkan  &gt;&gt;&gt; com.cherrystudios.vulkan &lt;&lt;&lt;
+16:47:28.910  A        #01 pc 0000000000037260  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (vkt::LoadBinaryFileToVector(char const*, AAssetManager*)+176) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
+16:47:28.910  A        #02 pc 0000000000038b54  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (vkt::HelloVK::createGraphicsPipeline()+72) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
+16:47:28.910  A        #03 pc 000000000003768c  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (vkt::HelloVK::initVulkan()+104) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
+16:47:28.910  A        #04 pc 000000000003fa0c  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
+16:47:28.910  A        #05 pc 0000000000076d4c  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
+16:47:28.910  A        #06 pc 000000000003f6b4  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (android_main+376) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
+16:47:28.910  A        #07 pc 0000000000076c20  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
+16:47:28.941  E  Failed to measure fs-verity, errno 1: /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk</historyEntry>
         <historyEntry timestamp="1743668657228">I'm getting the following error while building my project. The error is: 'ALooper_pollAll' is unavailable: obsoleted in Android 1 - ALooper_pollAll may ignore wakes. Use ALooper_pollOnce instead. See The API documentation for more information [arm64-v8a]
 ```
 $ ./gradlew :app:buildCMakeDebug[arm64-v8a]
