@@ -6,6 +6,8 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1743671163576">SurfaceSyncer      E  Failed to find sync for id=0 
+fix error above</historyEntry>
         <historyEntry timestamp="1743670104027">16:47:28.669  E  Failed to find sync for id=0
 16:47:28.673  A  Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 25311 (ystudios.vulkan), pid 25240 (ystudios.vulkan)
 16:47:28.910  A  Cmdline: com.cherrystudios.vulkan
