@@ -6,11 +6,19 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1742460722591">modern android app should use one activity with jetpack-compose?</historyEntry>
-        <historyEntry timestamp="1741252423012">proxy auth popup window, how to disable it</historyEntry>
-        <historyEntry timestamp="1741252340983">proxy auth popup window, how to disable it</historyEntry>
-        <historyEntry timestamp="1741153458816">What is a composable?</historyEntry>
-        <historyEntry timestamp="1737096741256">How to choose minSdkVersion?</historyEntry>
+        <historyEntry timestamp="1743668657228">I'm getting the following error while building my project. The error is: 'ALooper_pollAll' is unavailable: obsoleted in Android 1 - ALooper_pollAll may ignore wakes. Use ALooper_pollOnce instead. See The API documentation for more information [arm64-v8a]
+```
+$ ./gradlew :app:buildCMakeDebug[arm64-v8a]
+/Users/john/Library/Android/sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android30 --sysroot=/Users/john/Library/Android/sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DVK_USE_PLATFORM_ANDROID_KHR=1 -Dmain_EXPORTS -I/Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/../../../../third_party/glm/glm -I/Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/../../../../third_party/stb_image -isystem /Users/john/.gradle/caches/8.11.1/transforms/37c9be765a1b5f100284796de8b20784/transformed/games-activity-4.0.0/prefab/modules/game-activity_static/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++17 -Wall -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/main.cpp
+
+/Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/main.cpp:140:25: error: 'ALooper_pollAll' is unavailable: obsoleted in Android 1 - ALooper_pollAll may ignore wakes. Use ALooper_pollOnce instead. See The API documentation for more information
+  140 |         while ((ident = ALooper_pollAll(engine.canRender ? 0 : -1, nullptr, &amp;events,
+      |                         ^
+/Users/john/Library/Android/sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/looper.h:234:5: note: 'ALooper_pollAll' has been explicitly marked unavailable here
+  234 | int ALooper_pollAll(int timeoutMillis, int* outFd, int* outEvents, void** outData)
+      |     ^
+```
+How do I fix this?</historyEntry>
       </list>
     </option>
   </component>
