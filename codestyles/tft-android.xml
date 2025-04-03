@@ -27,6 +27,7 @@
       <emptyLine />
     </value>
   </option>
+  <option name="RIGHT_MARGIN" value="120" />
   <AndroidXmlCodeStyleSettings>
     <option name="LAYOUT_SETTINGS">
       <value>
@@ -84,6 +85,9 @@
     <option name="DOWHILE_BRACE_FORCE" value="3" />
     <option name="WHILE_BRACE_FORCE" value="3" />
     <option name="FOR_BRACE_FORCE" value="3" />
+  </codeStyleSettings>
+  <codeStyleSettings language="ObjectiveC">
+    <option name="RIGHT_MARGIN" value="120" />
   </codeStyleSettings>
   <codeStyleSettings language="XML">
     <indentOptions>
