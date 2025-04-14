@@ -5,6 +5,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1744612047134">create element data class from asssets/PeriodicTableJSON.json</historyEntry>
         <historyEntry timestamp="1743995614118">HelloVK中 createDevice没有实现, 如何实现</historyEntry>
         <historyEntry timestamp="1743995297528">项目中的代码是按照官方的vulkan演示制作, 但是安装之后, 手机黑屏, 调试的时候, 可以展示画面, 帮我找出BUG并修复问题</historyEntry>
         <historyEntry timestamp="1743671163576">SurfaceSyncer      E  Failed to find sync for id=0 
