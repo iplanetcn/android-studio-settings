@@ -5,6 +5,10 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1744615822655">what's the best to implements the adapter</historyEntry>
+        <historyEntry timestamp="1744615599416">It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort.</historyEntry>
+        <historyEntry timestamp="1744613305740">com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $</historyEntry>
+        <historyEntry timestamp="1744612177857">the element data class is not complete</historyEntry>
         <historyEntry timestamp="1744612047134">create element data class from asssets/PeriodicTableJSON.json</historyEntry>
         <historyEntry timestamp="1743995614118">HelloVK中 createDevice没有实现, 如何实现</historyEntry>
         <historyEntry timestamp="1743995297528">项目中的代码是按照官方的vulkan演示制作, 但是安装之后, 手机黑屏, 调试的时候, 可以展示画面, 帮我找出BUG并修复问题</historyEntry>
