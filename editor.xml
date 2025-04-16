@@ -26,6 +26,9 @@
       </map>
     </option>
   </component>
+  <component name="EditorSettings">
+    <option name="IS_RIGHT_MARGIN_SHOWN" value="false" />
+  </component>
   <component name="InlineCompletionOnboarding">
     <option name="onboardingFinished" value="true" />
   </component>
