@@ -5,50 +5,76 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
-        <historyEntry timestamp="1745549853595">Explain: FATAL EXCEPTION: main
-Process: com.cherrystudios.agdktunnel, PID: 9628
-java.lang.UnsatisfiedLinkError: No implementation found for long com.google.androidgamesdk.GameActivity.initializeNativeCode(java.lang.String, java.lang.String, java.lang.String, android.content.res.AssetManager, byte[], android.content.res.Configuration) (tried Java_com_google_androidgamesdk_GameActivity_initializeNativeCode and Java_com_google_androidgamesdk_GameActivity_initializeNativeCode__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Landroid_content_res_AssetManager_2_3BLandroid_content_res_Configuration_2) - is the library loaded, e.g. System.loadLibrary?
-at com.google.androidgamesdk.GameActivity.initializeNativeCode(Native Method)
-at com.google.androidgamesdk.GameActivity.onCreate(GameActivity.java:351) with tag AndroidRuntime</historyEntry>
-        <historyEntry timestamp="1745549684747">Explain: FATAL EXCEPTION: main
-Process: com.cherrystudios.agdktunnel, PID: 9628
-java.lang.UnsatisfiedLinkError: No implementation found for long com.google.androidgamesdk.GameActivity.initializeNativeCode(java.lang.String, java.lang.String, java.lang.String, android.content.res.AssetManager, byte[], android.content.res.Configuration) (tried Java_com_google_androidgamesdk_GameActivity_initializeNativeCode and Java_com_google_androidgamesdk_GameActivity_initializeNativeCode__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Landroid_content_res_AssetManager_2_3BLandroid_content_res_Configuration_2) - is the library loaded, e.g. System.loadLibrary?
-at com.google.androidgamesdk.GameActivity.initializeNativeCode(Native Method)
-at com.google.androidgamesdk.GameActivity.onCreate(GameActivity.java:351) with tag AndroidRuntime</historyEntry>
-        <historyEntry timestamp="1744615822655">what's the best to implements the adapter</historyEntry>
-        <historyEntry timestamp="1744615599416">It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort.</historyEntry>
-        <historyEntry timestamp="1744613305740">com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $</historyEntry>
-        <historyEntry timestamp="1744612177857">the element data class is not complete</historyEntry>
-        <historyEntry timestamp="1744612047134">create element data class from asssets/PeriodicTableJSON.json</historyEntry>
-        <historyEntry timestamp="1743995614118">HelloVK中 createDevice没有实现, 如何实现</historyEntry>
-        <historyEntry timestamp="1743995297528">项目中的代码是按照官方的vulkan演示制作, 但是安装之后, 手机黑屏, 调试的时候, 可以展示画面, 帮我找出BUG并修复问题</historyEntry>
-        <historyEntry timestamp="1743671163576">SurfaceSyncer      E  Failed to find sync for id=0 
-fix error above</historyEntry>
-        <historyEntry timestamp="1743670104027">16:47:28.669  E  Failed to find sync for id=0
-16:47:28.673  A  Fatal signal 11 (SIGSEGV), code 1 (SEGV_MAPERR), fault addr 0x0 in tid 25311 (ystudios.vulkan), pid 25240 (ystudios.vulkan)
-16:47:28.910  A  Cmdline: com.cherrystudios.vulkan
-16:47:28.910  A  pid: 25240, tid: 25311, name: ystudios.vulkan  &gt;&gt;&gt; com.cherrystudios.vulkan &lt;&lt;&lt;
-16:47:28.910  A        #01 pc 0000000000037260  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (vkt::LoadBinaryFileToVector(char const*, AAssetManager*)+176) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
-16:47:28.910  A        #02 pc 0000000000038b54  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (vkt::HelloVK::createGraphicsPipeline()+72) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
-16:47:28.910  A        #03 pc 000000000003768c  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (vkt::HelloVK::initVulkan()+104) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
-16:47:28.910  A        #04 pc 000000000003fa0c  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
-16:47:28.910  A        #05 pc 0000000000076d4c  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
-16:47:28.910  A        #06 pc 000000000003f6b4  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (android_main+376) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
-16:47:28.910  A        #07 pc 0000000000076c20  /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk!libmain.so (offset 0x9b4000) (BuildId: cb852ba87993a7c7d3cabd7150a428862489e069)
-16:47:28.941  E  Failed to measure fs-verity, errno 1: /data/app/~~VRemIscyeBwmVAdSzVrkkQ==/com.cherrystudios.vulkan-bkSTH8QKNYZVy45DoXCORw==/base.apk</historyEntry>
-        <historyEntry timestamp="1743668657228">I'm getting the following error while building my project. The error is: 'ALooper_pollAll' is unavailable: obsoleted in Android 1 - ALooper_pollAll may ignore wakes. Use ALooper_pollOnce instead. See The API documentation for more information [arm64-v8a]
-```
-$ ./gradlew :app:buildCMakeDebug[arm64-v8a]
-/Users/john/Library/Android/sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ --target=aarch64-none-linux-android30 --sysroot=/Users/john/Library/Android/sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/darwin-x86_64/sysroot -DVK_USE_PLATFORM_ANDROID_KHR=1 -Dmain_EXPORTS -I/Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/../../../../third_party/glm/glm -I/Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/../../../../third_party/stb_image -isystem /Users/john/.gradle/caches/8.11.1/transforms/37c9be765a1b5f100284796de8b20784/transformed/games-activity-4.0.0/prefab/modules/game-activity_static/include -g -DANDROID -fdata-sections -ffunction-sections -funwind-tables -fstack-protector-strong -no-canonical-prefixes -D_FORTIFY_SOURCE=2 -Wformat -Werror=format-security   -std=c++17 -Wall -fno-limit-debug-info  -fPIC -MD -MT CMakeFiles/main.dir/main.cpp.o -MF CMakeFiles/main.dir/main.cpp.o.d -o CMakeFiles/main.dir/main.cpp.o -c /Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/main.cpp
+        <historyEntry timestamp="1745569970109">Executing tasks: [:app:assembleDebug] in project /Users/john/AndroidStudioProjects/GroceryApp
 
-/Users/john/AndroidStudioProjects/vulkan-android/app/src/main/cpp/main.cpp:140:25: error: 'ALooper_pollAll' is unavailable: obsoleted in Android 1 - ALooper_pollAll may ignore wakes. Use ALooper_pollOnce instead. See The API documentation for more information
-  140 |         while ((ident = ALooper_pollAll(engine.canRender ? 0 : -1, nullptr, &amp;events,
-      |                         ^
-/Users/john/Library/Android/sdk/ndk/28.0.13004108/toolchains/llvm/prebuilt/darwin-x86_64/sysroot/usr/include/android/looper.h:234:5: note: 'ALooper_pollAll' has been explicitly marked unavailable here
-  234 | int ALooper_pollAll(int timeoutMillis, int* outFd, int* outEvents, void** outData)
-      |     ^
-```
-How do I fix this?</historyEntry>
+&gt; Task :app:preBuild UP-TO-DATE
+&gt; Task :app:preDebugBuild UP-TO-DATE
+&gt; Task :app:mergeDebugNativeDebugMetadata NO-SOURCE
+&gt; Task :app:checkKotlinGradlePluginConfigurationErrors SKIPPED
+&gt; Task :app:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+&gt; Task :app:generateDebugResValues UP-TO-DATE
+&gt; Task :app:generateDebugResources UP-TO-DATE
+&gt; Task :app:mergeDebugResources UP-TO-DATE
+&gt; Task :app:packageDebugResources UP-TO-DATE
+&gt; Task :app:parseDebugLocalResources UP-TO-DATE
+&gt; Task :app:dataBindingGenBaseClassesDebug
+&gt; Task :app:checkDebugAarMetadata UP-TO-DATE
+&gt; Task :app:mapDebugSourceSetPaths UP-TO-DATE
+&gt; Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+&gt; Task :app:extractDeepLinksDebug UP-TO-DATE
+
+&gt; Task :app:processDebugMainManifest
+package=&quot;cherry.app.grocery&quot; found in source AndroidManifest.xml: /Users/john/AndroidStudioProjects/GroceryApp/app/src/main/AndroidManifest.xml.
+Setting the namespace via the package attribute in the source AndroidManifest.xml is no longer supported, and the value is ignored.
+Recommendation: remove package=&quot;cherry.app.grocery&quot; from the source AndroidManifest.xml: /Users/john/AndroidStudioProjects/GroceryApp/app/src/main/AndroidManifest.xml.
+
+&gt; Task :app:processDebugManifest
+&gt; Task :app:javaPreCompileDebug UP-TO-DATE
+&gt; Task :app:mergeDebugShaders UP-TO-DATE
+&gt; Task :app:compileDebugShaders NO-SOURCE
+&gt; Task :app:generateDebugAssets UP-TO-DATE
+&gt; Task :app:mergeDebugAssets UP-TO-DATE
+&gt; Task :app:compressDebugAssets UP-TO-DATE
+&gt; Task :app:desugarDebugFileDependencies
+&gt; Task :app:checkDebugDuplicateClasses UP-TO-DATE
+&gt; Task :app:mergeDebugJniLibFolders UP-TO-DATE
+&gt; Task :app:mergeLibDexDebug
+&gt; Task :app:mergeDebugNativeLibs UP-TO-DATE
+&gt; Task :app:stripDebugDebugSymbols UP-TO-DATE
+&gt; Task :app:validateSigningDebug UP-TO-DATE
+&gt; Task :app:writeDebugAppMetadata UP-TO-DATE
+&gt; Task :app:writeDebugSigningConfigVersions
+&gt; Task :app:processDebugManifestForPackage
+&gt; Task :app:processDebugResources
+&gt; Task :app:kspDebugKotlin UP-TO-DATE
+
+&gt; Task :app:compileDebugKotlin FAILED
+e: file:///Users/john/AndroidStudioProjects/GroceryApp/app/src/main/java/cherry/app/grocery/data/pref/PrefsStoreImpl.kt:4:44 Unresolved reference 'edit'.
+e: file:///Users/john/AndroidStudioProjects/GroceryApp/app/src/main/java/cherry/app/grocery/data/pref/PrefsStoreImpl.kt:5:44 Unresolved reference 'emptyPreferences'.
+e: file:///Users/john/AndroidStudioProjects/GroceryApp/app/src/main/java/cherry/app/grocery/data/pref/PrefsStoreImpl.kt:6:44 Unresolved reference 'stringPreferencesKey'.
+e: file:///Users/john/AndroidStudioProjects/GroceryApp/app/src/main/java/cherry/app/grocery/data/pref/PrefsStoreImpl.kt:27:21 Unresolved reference 'stringPreferencesKey'.
+e: file:///Users/john/AndroidStudioProjects/GroceryApp/app/src/main/java/cherry/app/grocery/data/pref/PrefsStoreImpl.kt:43:18 Unresolved reference 'emptyPreferences'.
+e: file:///Users/john/AndroidStudioProjects/GroceryApp/app/src/main/java/cherry/app/grocery/data/pref/PrefsStoreImpl.kt:50:19 Unresolved reference 'edit'.
+e: file:///Users/john/AndroidStudioProjects/GroceryApp/app/src/main/java/cherry/app/grocery/data/pref/PrefsStoreImpl.kt:51:13 Unresolved reference 'it'.
+
+&gt; Task :app:mergeExtDexDebug
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':app:compileDebugKotlin'.
+&gt; A failure occurred while executing org.jetbrains.kotlin.compilerRunner.GradleCompilerRunnerWithWorkers$GradleKotlinCompilerWorkAction
+   &gt; Compilation error. See log for more details
+
+* Try:
+&gt; Run with --stacktrace option to get the stack trace.
+&gt; Run with --info or --debug option to get more log output.
+&gt; Run with --scan to get full insights.
+&gt; Get more help at https://help.gradle.org.
+
+BUILD FAILED in 2s
+31 actionable tasks: 10 executed, 21 up-to-date</historyEntry>
+        <historyEntry timestamp="1745569923650">修复编译错误</historyEntry>
       </list>
     </option>
   </component>
