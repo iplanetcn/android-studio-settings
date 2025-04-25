@@ -5,6 +5,16 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1745549853595">Explain: FATAL EXCEPTION: main
+Process: com.cherrystudios.agdktunnel, PID: 9628
+java.lang.UnsatisfiedLinkError: No implementation found for long com.google.androidgamesdk.GameActivity.initializeNativeCode(java.lang.String, java.lang.String, java.lang.String, android.content.res.AssetManager, byte[], android.content.res.Configuration) (tried Java_com_google_androidgamesdk_GameActivity_initializeNativeCode and Java_com_google_androidgamesdk_GameActivity_initializeNativeCode__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Landroid_content_res_AssetManager_2_3BLandroid_content_res_Configuration_2) - is the library loaded, e.g. System.loadLibrary?
+at com.google.androidgamesdk.GameActivity.initializeNativeCode(Native Method)
+at com.google.androidgamesdk.GameActivity.onCreate(GameActivity.java:351) with tag AndroidRuntime</historyEntry>
+        <historyEntry timestamp="1745549684747">Explain: FATAL EXCEPTION: main
+Process: com.cherrystudios.agdktunnel, PID: 9628
+java.lang.UnsatisfiedLinkError: No implementation found for long com.google.androidgamesdk.GameActivity.initializeNativeCode(java.lang.String, java.lang.String, java.lang.String, android.content.res.AssetManager, byte[], android.content.res.Configuration) (tried Java_com_google_androidgamesdk_GameActivity_initializeNativeCode and Java_com_google_androidgamesdk_GameActivity_initializeNativeCode__Ljava_lang_String_2Ljava_lang_String_2Ljava_lang_String_2Landroid_content_res_AssetManager_2_3BLandroid_content_res_Configuration_2) - is the library loaded, e.g. System.loadLibrary?
+at com.google.androidgamesdk.GameActivity.initializeNativeCode(Native Method)
+at com.google.androidgamesdk.GameActivity.onCreate(GameActivity.java:351) with tag AndroidRuntime</historyEntry>
         <historyEntry timestamp="1744615822655">what's the best to implements the adapter</historyEntry>
         <historyEntry timestamp="1744615599416">It will always be more efficient to use more specific change events if you can. Rely on notifyDataSetChanged as a last resort.</historyEntry>
         <historyEntry timestamp="1744613305740">com.google.gson.JsonSyntaxException: java.lang.IllegalStateException: Expected BEGIN_ARRAY but was BEGIN_OBJECT at line 1 column 2 path $</historyEntry>
