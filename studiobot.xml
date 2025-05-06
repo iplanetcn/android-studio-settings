@@ -5,6 +5,12 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1746500006793">I'm getting the following error while building my project. The error is: Android resource linking failed
+```
+$ ./gradlew :app:processOpsDebugResources
+ERROR: /Users/john/AndroidStudioProjects/TFTong/yqad/build/intermediates/packaged_res/debug/packageDebugResources/layout/mix_native_item.xml:32: AAPT: error: resource mipmap/s2s_template_img_default_bg (aka com.chinarainbow.tft:mipmap/s2s_template_img_default_bg) not found.
+```
+How do I fix this?</historyEntry>
         <historyEntry timestamp="1745569970109">Executing tasks: [:app:assembleDebug] in project /Users/john/AndroidStudioProjects/GroceryApp
 
 &gt; Task :app:preBuild UP-TO-DATE
