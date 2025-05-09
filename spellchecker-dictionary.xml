@@ -9,6 +9,7 @@
       <w>appid</w>
       <w>arouter</w>
       <w>atomicfu</w>
+      <w>bdurl</w>
       <w>beizi</w>
       <w>bottomsheet</w>
       <w>cdtft</w>
@@ -19,6 +20,7 @@
       <w>disposible</w>
       <w>douyin</w>
       <w>ecpm</w>
+      <w>extlog</w>
       <w>funcs</w>
       <w>ibtn</w>
       <w>icbc</w>
@@ -30,7 +32,9 @@
       <w>oaid</w>
       <w>openadsdk</w>
       <w>qyad</w>
+      <w>snssdk</w>
       <w>tftcrbtsm</w>
+      <w>ttcdn</w>
       <w>unfinish</w>
       <w>unicon</w>
       <w>wxpos</w>

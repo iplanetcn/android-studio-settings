@@ -1,10 +1,10 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine" />
+    <option name="mostRecentlyUsed" value="package:mine yqad" />
     <option name="nonFavorites">
       <list>
-        <option value="package:mine" />
         <option value="package:mine yqad" />
+        <option value="package:mine" />
         <option value="package:mine YdSDK" />
         <option value="package:mine 网络" />
         <option value="package:mine " />
