@@ -1,13 +1,13 @@
 <application>
   <component name="AndroidLogcatFilterHistory">
-    <option name="mostRecentlyUsed" value="package:mine 网络" />
+    <option name="mostRecentlyUsed" value="package:mine" />
     <option name="nonFavorites">
       <list>
+        <option value="package:mine" />
         <option value="package:mine 网络" />
         <option value="connect/oauth2/carbon/register" />
         <option value="package:mine " />
         <option value="package:mine level:error " />
-        <option value="package:mine" />
         <option value="package:mine yqad" />
         <option value="package:mine YdSDK" />
         <option value="package:mine vulkan-android" />
