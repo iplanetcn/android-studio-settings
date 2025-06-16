@@ -2,6 +2,7 @@
   <component name="StudioBotSettings">
     <option name="acceptedTermsVersion" value="3" />
     <option name="contextSharingModeV2" value="AlwaysShare" />
+    <option name="dasherProductVariant" value="Free" />
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
