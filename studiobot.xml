@@ -6,6 +6,7 @@
     <option name="onboardedVersion" value="3" />
     <option name="queryHistory">
       <list>
+        <historyEntry timestamp="1750061966034">upgrade dependencies</historyEntry>
         <historyEntry timestamp="1749715181108">Column spacing</historyEntry>
         <historyEntry timestamp="1749714760429">fix error</historyEntry>
         <historyEntry timestamp="1749630696789">What does the error message &quot;Expecting an element&quot; mean?</historyEntry>
