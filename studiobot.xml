@@ -4,5 +4,187 @@
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="dasherProductVariant" value="Free" />
     <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1751423116165">Make suggestions to improve this code:
+```java
+/// 获取联机二维码成功
+    void getQRSuccess(QRData qrData);
+
+    /** 获取离线二维码成功 */
+    void getOffLineQRSuccess(String qrData);
+
+    /** 获取联机二维码失败 */
+    void getQRFail(QRData qrData, String code, String msg);
+
+    /** 获取离线二维码失败 */
+    void getOffLineQRFail(int code, String msg);
+
+    /** 显示当前支付方式 */
+    void showPayType(PaySeq paySeq);
+
+    /** 获取离线码 */
+    void getOfflineQr();
+
+    /** 显示乘车码渠道列表 */
+    void showRideCodeChannelList(List&lt;RideCodeChannel&gt; channelList);
+
+    /** 显示乘车码渠道 */
+    void showRideQrcodeDialog(RideCodeChannel channel);
+
+    /** 显示交通乘车码授权 */
+    void showJtbQrcode(Bitmap qrcode);
+
+    /** 显示交通乘车码获取失败: 联网 */
+    void showJtbQrcodeServerFail(String msg);
+
+    /** 获取乘车码显示大小 */
+    int getQrcodeSizePx();
+
+    /** 显示未支付订单 */
+    void showNeedPayOrder(UnfinishOrder data);
+
+    /** 提示用户开通交通部异常 */
+    void showJtbAuthError(JtbAuthData data);
+
+    /**
+     * 显示底部广告
+     */
+    void showBottomAdData(AdData data);
+
+    /**
+     * 显示文字广告
+     */
+    void showTextAdData(@Nullable AdBanner data);
+
+    /**
+     * 获取功能列表
+     */
+    void showFunctionList(List&lt;TftQrcodeFunctionItem&gt; itemList);
+
+    /**
+     * 显示支付列表数据
+     */
+    void showSeqInfo(QpSeqInfoData seqInfoData);
+
+    /**
+     * 更新乘车码
+     */
+    void refreshRideQrcode();
+
+    /**
+     * 显示选择支付方式弹窗
+     */
+    void showChoosePaymentChannelDialog(List&lt;PaySeq&gt; paySeqList);
+
+    /**
+     * 展示余额提醒
+     */
+    void showAccountBalanceRemind(AccountBalanceRemindData data);
+
+    /**
+     * 隐藏余额提醒
+     */
+    void hideAccountBalance();
+
+    Lifecycle provideLifecycle();
+
+    void onFoundQrcodePushInfo(QrcodeScanPushInfo pushInfo);
+
+    void preloadQRSuccess(QRData qrData);
+
+    void showAffiliationCouponInfo(GroupPromotionDisplay data);
+
+    void showSkinImage(List&lt;NFCSkin&gt; data);
+
+    void loadSkinImageError();
+
+    /**
+     * 检查行程类型成功
+     */
+    void onCheckTripTypeSuccess(String tripType, String orderNo);
+
+    /**
+     * 打开深度链接
+     */
+    void openDeepLink(String url);
+
+    /**
+     * 预加载熊猫插屏广告
+     */
+    void preloadInteractionAds(AdBanner entryInteractionAd, AdBanner exitInteractionAd);
+
+    /**
+     * 展示用户月消费金额信息
+     */
+    void showUserMonthConsumeAmount(UserMonthConsumeAmountData data);
+}
+
+interface Model extends IModel, AdContract.Model {
+
+    /** 获取二维码 */
+    Observable&lt;BaseResult&lt;QRData&gt;&gt; getQRData(String qrCodeType, int offlineNum);
+
+    /** 查询支付顺序 */
+    Observable&lt;BaseJson&lt;QpSeqInfoData&gt;&gt; fetchingPaySeqInfo(String rideQrcodeType);
+
+    /**
+     * 更新支付顺序
+     */
+    Observable&lt;BaseJson&lt;QpSeqInfoData&gt;&gt; updatePaySeq(String payType, String subPayType, String rideQrcodeType);
+
+    /** 获取乘车码渠道列表 */
+    Observable&lt;BaseJson&lt;List&lt;RideCodeChannel&gt;&gt;&gt; fetchingRideCodeChannelList();
+
+    /** 交通部乘车码:获取用户请码授权 */
+    Observable&lt;BaseJson&lt;JtbAuthData&gt;&gt; getJtbAuth();
+
+    /** 开通交通联合码 */
+    Observable&lt;BaseJson&lt;JtbRegisterData&gt;&gt; jtbQrcodeRegister();
+
+    /**
+     * 获取功能列表
+     */
+    Observable&lt;BaseJson&lt;List&lt;TftQrcodeFunctionItem&gt;&gt;&gt; getFunctionList();
+
+    /**
+     * 查询余额提醒
+     */
+    Observable&lt;BaseResult&lt;AccountBalanceRemindData&gt;&gt; getAccountBalanceRemind(String payType);
+
+    /**
+     * 查询默认支付方式
+     */
+    Observable&lt;BaseResult&lt;PaySeq&gt;&gt; getDefaultPayType(String rideQrcodeType);
+
+    /**
+     * 查询默认支付方式
+     */
+    Observable&lt;BaseResult&lt;GroupPromotionDisplay&gt;&gt; queryGroupPromotionInfo(String appId);
+
+    /**
+     * 获取NFC皮肤
+     */
+    Observable&lt;BaseResult&lt;List&lt;NFCSkin&gt;&gt;&gt; getNFCAppSkin();
+
+
+    /**
+     * 查询行程类型
+     */
+    Observable&lt;BaseResult&lt;String&gt;&gt; checkTripType(String orderNo, String userId);
+
+    /**
+     * 数币子钱包签约
+     */
+    Observable&lt;BaseResult&lt;String&gt;&gt; dcepSubAuth(String payType);
+
+    /**
+     * 查询用户月消费金额
+     */
+    Observable&lt;BaseResult&lt;UserMonthConsumeAmountData&gt;&gt; queryUserMonthConsumeAmount();
+
+```</historyEntry>
+      </list>
+    </option>
   </component>
 </application>
