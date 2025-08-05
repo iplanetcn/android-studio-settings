@@ -3,5 +3,10 @@
     <option name="acceptedTermsVersion" value="3" />
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="onboardedVersion" value="3" />
+    <option name="queryHistory">
+      <list>
+        <historyEntry timestamp="1754362155613">大型项目使用Android Studio如何将java装换为kotlin</historyEntry>
+      </list>
+    </option>
   </component>
 </application>
