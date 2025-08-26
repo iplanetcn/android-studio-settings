@@ -3,24 +3,5 @@
     <option name="acceptedTermsVersion" value="3" />
     <option name="contextSharingModeV2" value="AlwaysShare" />
     <option name="onboardedVersion" value="3" />
-    <option name="queryHistory">
-      <list>
-        <historyEntry timestamp="1755745647274">I'm getting the following error while building my project. The error is: java.lang.IllegalAccessError: superclass access check failed: class org.jetbrains.kotlin.kapt3.base.javac.KaptJavaCompiler (in unnamed module @0x560f4561) cannot access class com.sun.tools.javac.main.JavaCompiler (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.main to unnamed module @0x560f4561
-```
-$ ./gradlew :app:kaptGenerateStubsOpsDebugKotlin
-java.lang.IllegalAccessError: superclass access check failed: class org.jetbrains.kotlin.kapt3.base.javac.KaptJavaCompiler (in unnamed module @0x560f4561) cannot access class com.sun.tools.javac.main.JavaCompiler (in module jdk.compiler) because module jdk.compiler does not export com.sun.tools.javac.main to unnamed module @0x560f4561
-	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
-	at java.base/java.lang.ClassLoader.defineClass(Unknown Source)
-	at java.base/java.security.SecureClassLoader.defineClass(Unknown Source)
-	at java.base/java.net.URLClassLoader.defineClass(Unknown Source)
-	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
-	at java.base/java.net.URLClassLoader$1.run(Unknown Source)
-	at java.base/java.security.AccessController.doPrivileged(Unknown Source)
-	at java.base/java.net.URLClassLoader.findClass(Unknown Source)
-	at java.base/java.lang.ClassLoader.loadClass(Unknown Source)
-```
-How do I fix this?</historyEntry>
-      </list>
-    </option>
   </component>
 </application>
